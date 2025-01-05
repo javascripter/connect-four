@@ -1,5 +1,6 @@
-import { GameBoard, useGameBoard } from '@/components/GameBoard'
-import { Link, Stack } from 'expo-router'
+import { GameBoard, useGameBoard } from '@/features/GameBoard/GameBoard'
+import { Stack } from 'expo-router'
+
 import React from 'react'
 import { View, Text, StyleSheet, Pressable } from 'react-native'
 
